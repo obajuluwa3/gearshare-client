@@ -1,0 +1,105 @@
+*{
+	// border: 1px solid grey;
+}
+
+.listWrapper {
+	margin-top: 0;
+	height: 100vh;
+}
+
+.myItem {
+	display: flex;
+	background: #efefef;
+	padding: 10px 10px;
+	align-items: flex-end;
+	border-bottom: 1px solid rgba(65, 64, 66, 0.5);
+}
+
+.manageBtns {
+	margin: 10px 0;
+}
+
+.gearWrapper {
+	width: 200px;
+	margin-right: 10px;
+}
+
+.gearDetails {
+	width: 40%;
+	padding-bottom: 25px;
+}
+
+.gearImg {
+	width: 200px;
+}
+
+.switch {
+	margin: 5px 10px 15px 0;
+}
+
+.status {
+	text-align: left;
+}
+
+.editBtn {
+	margin: 0;
+}
+
+.statusSwitch {
+	display: flex;
+	flex-direction: column;
+}
+
+.newGear {
+	text-align: center;
+	margin: 20px 0;
+}
+
+.newBtn {
+	margin: 15px 0;
+	padding: 10px 100px;
+}
+
+@media only screen and (max-width: 640px) {
+
+	.gearWrapper {
+		width: 30%;
+		margin-right: 10px;
+	}
+
+	.gearDetails {
+		width: 70%;
+		padding-bottom: 25px;
+	}
+
+	.gearImg {
+		width: 100%;
+	}
+
+	.switch {
+		margin: 5px 10px 15px 0;
+	}
+
+	.status {
+		text-align: left;
+	}
+
+	.editBtn {
+		margin: 0;
+	}
+
+	.newBtn {
+		margin: 15px 0;
+		padding: 10px 20%;
+	}
+
+	.statusSwitch {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.newGear {
+		text-align: center;
+		margin: 20px 0;
+	}
+}
